@@ -53,7 +53,7 @@ void TensorTask::run()
                 cv::Mat barcode = tempFrame(myROI);
                 if ((int)detections[n].Left!=38) {
                     //Decode
-                    imwrite("barcode.jpg",barcode);
+                    //imwrite("barcode.jpg",barcode);
                     vector<decodedObject> decodedObjects;
                     barcodeString = decodeBarcode(barcode,decodedObjects,QString("Normal"));
                     emit Result(barcodeString);
