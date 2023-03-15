@@ -1,0 +1,4 @@
+/home/asis/build-TensorRTLocalHostApi-Desktop-Release/CMakeFiles/rebuild_cache.dir
+/home/asis/build-TensorRTLocalHostApi-Desktop-Release/CMakeFiles/TensorRTLocalHostApi.dir
+/home/asis/build-TensorRTLocalHostApi-Desktop-Release/CMakeFiles/edit_cache.dir
+/home/asis/build-TensorRTLocalHostApi-Desktop-Release/CMakeFiles/TensorRTLocalHostApi_autogen.dir

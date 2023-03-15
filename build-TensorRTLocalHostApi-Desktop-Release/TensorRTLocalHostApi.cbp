@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TensorRTLocalHostApi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\jetson-utils\;CMake Files\..\..\..\usr\local\share\jetson-utils\cmake\;CMake Files\..\..\..\usr\local\share\jetson-inference\;CMake Files\..\..\..\usr\local\share\jetson-inference\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TensorRTLocalHostApi">
+				<Option output="/home/asis/build-TensorRTLocalHostApi-Desktop-Release/TensorRTLocalHostApi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add directory="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+					<Add directory="/home/asis/TensorRTLocalHostApi"/>
+					<Add directory="/home/asis/build-TensorRTLocalHostApi-Desktop-Release/TensorRTLocalHostApi_autogen/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/cuda-10.2/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 TensorRTLocalHostApi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TensorRTLocalHostApi/fast">
+				<Option output="/home/asis/build-TensorRTLocalHostApi-Desktop-Release/TensorRTLocalHostApi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add directory="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+					<Add directory="/home/asis/TensorRTLocalHostApi"/>
+					<Add directory="/home/asis/build-TensorRTLocalHostApi-Desktop-Release/TensorRTLocalHostApi_autogen/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/cuda-10.2/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 TensorRTLocalHostApi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TensorRTLocalHostApi_autogen">
+				<Option working_dir="/home/asis/build-TensorRTLocalHostApi-Desktop-Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 TensorRTLocalHostApi_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/asis/build-TensorRTLocalHostApi-Desktop-Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/main.cpp">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/tensorclient.cpp">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/tensorclient.h">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/tensorserver.cpp">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/tensorserver.h">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/tensortask.cpp">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/tensortask.h">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/build-TensorRTLocalHostApi-Desktop-Release/TensorRTLocalHostApi_autogen/mocs_compilation.cpp">
+			<Option target="TensorRTLocalHostApi"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/share/jetson-utils/cmake/jetson-utilsConfig-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\jetson-utils\cmake\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/share/jetson-utils/cmake/jetson-utilsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\jetson-utils\cmake\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/share/jetson-inference/cmake/jetson-inferenceConfig-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\jetson-inference\cmake\"/>
+		</Unit>
+		<Unit filename="/home/asis/TensorRTLocalHostApi/../../../usr/local/share/jetson-inference/cmake/jetson-inferenceConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\jetson-inference\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
